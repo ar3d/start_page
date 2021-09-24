@@ -16,9 +16,7 @@ body {
 
 h1 {
   font-size: 2.8rem;
-  margin-left: 0.2em;
 }
-
 
 #tm-bg {
   position: fixed;
@@ -122,7 +120,7 @@ p {
 }
 
 .product:hover {
-  background: rgba(44,42,53,0.7);
+  background: #2c2a35;
   color: #a9a9a9;
 }
 
@@ -134,7 +132,6 @@ p {
 /* Expanding Grid Items from Codrops */
 .tm-page-title {
   font-weight: 300;
-  margin-left: 0.3em;
 }
 .content {
   max-width: 370px;
@@ -155,7 +152,6 @@ p {
   width: 100%;
   height: 100%;
   top: 0px;
-  bottom: 0px;
 }
 
 .product__bg,
@@ -187,7 +183,7 @@ p {
   flex-direction: column;
   justify-content: center;
   pointer-events: none;
-  padding: 5px;
+  padding: 15px;
   display: none;
 }
 
@@ -207,22 +203,21 @@ p {
   right: 0;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 40px;
 }
 
 .details__bg--down {
-  background: rgba(44,42,53,0.9);
+  background: #2c2a35;
 }
 
 .details__bg {
-  padding: 5px;
+  padding: 50px;
   transform-origin: 0 0;
 }
 
 .details__close {
   position: absolute;
-  top: -50px;
-  right: -12px;
+  top: 5px;
+  right: 0;
   border: 0;
   background: none;
   margin: 1em;
@@ -232,14 +227,6 @@ p {
   z-index: 1001;
 }
 
-.mappa {
-width: 100%;
-height: 450px;
-border-top-width: 0px;
-border-right-width: 0px;
-border-bottom-width: 0px;
-border-left-width: 0px;
-}
 /* Team */
 .tm-reverse-sm {
   flex-direction: row;
@@ -386,13 +373,6 @@ a:focus {
   outline: none;
 }
 
-.testo {
-  margin-top: 0.7em;
-  margin-right: 0.7em;
-  margin-left: 0.7em;
-  margin-bottom: 0.7em;
-}
-
 p:last-child {
   margin-bottom: 0;
 }
@@ -439,7 +419,7 @@ p:last-child {
     flex-direction: column;
   }
   .details__bg {
-    padding: 5px 5px;
+    padding: 55px 40px;
   }
   .slick-dots li button:before {
     font-size: 15px;
