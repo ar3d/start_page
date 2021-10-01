@@ -92,18 +92,20 @@
                                                         <div class="p-sm-4 p-2 tm-img-container">
                                                             <div class="tm-img-slider" id="tmImgSlider">
 								<img src="img/icone_groma/pezzi.jpg" alt="Reperti della groma ritrovati nella bottega di Verus a Pompei" style="width:180px;cursor:zoom-in" onclick="document.getElementById('modal01').style.display='block'">
-									<div id="modal01" class="w3-modal" onclick="this.style.display='none'">
-										<span class="w3-button w3-hover-red w3-xlarge w3-display-topright">&times;</span>
-											<div class="w3-modal-content w3-animate-zoom">
-												<img src="img/icone_groma/pezzi.jpg" style="width:100%">
-											</div>    
-									</div>
+									
 							      <a href="estratti_immagini/groma/ferramentum.jpg" class="tm-slider-img-link"><img src="img/icone_groma/ferramentum.jpg" alt="Ricostruzione del ferramentum" class="img-fluid tm-slider-img"></a>
                                                               <a href="estratti_immagini/groma/rostro.jpg" class="tm-slider-img-link"><img src="img/icone_groma/rostro.jpg" alt="Ricostruzione del rostro" class="img-fluid tm-slider-img"></a>
                                                               <a href="estratti_immagini/groma/groma.jpg" class="tm-slider-img-link"><img src="img/icone_groma/groma.jpg" alt="Ricostruzione delle braccia della groma" class="img-fluid tm-slider-img"></a>
                                                               <a href="estratti_immagini/groma/ricostruzione.jpg" class="tm-slider-img-link"><img src="img/icone_groma/ricostruzione.jpg" alt="Assonometria della groma di Matteo Della Corte" class="img-fluid tm-slider-img"></a>
                                                               <a href="estratti_immagini/groma/stele_ivrea.jpg" class="tm-slider-img-link"><img src="img/icone_groma/stele_ivrea.jpg" alt="Lapide con groma rinvenuta presso Ivrea" class="img-fluid tm-slider-img"></a>
-                                                            </div>
+                                                            
+							      <div id="modal01" class="w3-modal" onclick="this.style.display='none'">
+  								<span class="w3-button w3-hover-red w3-xlarge w3-display-topright">&times;</span>
+  								<div class="w3-modal-content w3-animate-zoom">
+   								<img id="img01" style="width:100%">
+							      </div>
+								 </div>
+								</div>
                                                         </div>  
                                                     </div>
                                                 </div>
@@ -187,7 +189,13 @@
 
             $('.tm-current-year').text(new Date().getFullYear());  // Update year in copyright           
         });
-
+	
+	/* W3.CSS gallery
+	---------------------------------------------*/
+	function onClick(element) {
+  document.getElementById("img01").src = element.src;
+  document.getElementById("modal01").style.display = "block";
+}
     </script>             
 
 </body>
