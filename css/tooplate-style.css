@@ -47,6 +47,34 @@ h1 {
   transition: all 0.3s ease;
 }
 
+#tm-bg-ponte {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url(../img/sfondi/ponte.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  z-index: -1;
+  transition: all 0.3s ease;
+}
+
+#tm-bg-faglia {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url(../img/sfondi/faglia.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  z-index: -1;
+  transition: all 0.3s ease;
+}
+
 #tm-bg-ad_quintus {
   position: fixed;
   top: 0;
