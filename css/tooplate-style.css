@@ -19,6 +19,19 @@ h1 {
   margin-left: 0.2em;
 }
 
+#tm-bg-ad_quintus {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url(../img/sfondi/ad_quintus.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  z-index: -1;
+  transition: all 0.3s ease;
+}
 
 #tm-bg-acquedotti-imp {
   position: fixed;
@@ -41,6 +54,34 @@ h1 {
   width: 100%;
   height: 100%;
   background-image: url(../img/sfondi/groma.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  z-index: -1;
+  transition: all 0.3s ease;
+}
+
+#tm-bg-corobate {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url(../img/sfondi/corobate.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  z-index: -1;
+  transition: all 0.3s ease;
+}
+
+#tm-bg-pertica {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url(../img/sfondi/pertica.jpg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
