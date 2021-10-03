@@ -6,19 +6,19 @@
     <meta name="description" content="Mommsen in Molise">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
-body {line-height:0.1; margin:0.5rem 0.5rem; overflow: auto; background: rgba(44,42,53,0.9);}
-
-.p1 {
-  font-family:Arial, Helvetica, sans-serif; font-size:26px; color: white;
-}
+body {line-height:normal;  overflow: auto; background: rgba(44,42,53,0.9);}
 
 button.close {
   font-family:Arial, Helvetica, sans-serif; font-size:30px; color: white;
     background: rgba(0,0,0,0);
     border-style: none;
-    position: relative;
-    left: 96%;
-    top: 2%;
+    position: absolute;
+    left: 90%;
+    top: 5%;
+}
+
+.p1 {
+  font-family:Arial, Helvetica, sans-serif; font-size:26px; color: black;
 }
 
 
@@ -26,7 +26,7 @@ button.close {
   position: relative;
   width: 100%;
   overflow: hidden;
-  padding-top: 100%; /* 1:1 Aspect Ratio */
+  padding-top: 56.25%; /* 1:1 Aspect Ratio */
 }
 
 .responsive-iframe {
@@ -43,11 +43,10 @@ button.close {
 </style>
 </head>
 <body>
-<button type="button" class="close" onclick="window.close();">x</button> 
-
+<div><button type="button" class="close" onclick="window.close();">x</button>
 <div class="container">
   <iframe class="responsive-iframe" src="https://ar3d.github.io/mommsen/mommsen_molise.html"></iframe>
-</div>
+</div></div>
 <p class="p1">Mommsen in Molise</p>
 
 </body>
