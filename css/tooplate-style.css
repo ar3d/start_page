@@ -33,6 +33,20 @@ h1 {
   transition: all 0.3s ease;
 }
 
+#tm-bg-editto {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url(../img/sfondi/editto.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  z-index: -1;
+  transition: all 0.3s ease;
+}
+
 #tm-bg-ruota_idraulica {
   position: fixed;
   top: 0;
