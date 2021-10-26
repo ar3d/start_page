@@ -605,6 +605,13 @@ footer {
 	margin-bottom: 0;
 }
 
+.background-img-logo-6 {
+	height: 30px;
+	align-content: center;
+	margin-bottom: 0;
+	background-color: #467cb0;
+}
+
 .tm-text-highlight {
   color: white;
 }
